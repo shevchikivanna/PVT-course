@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+	<parameter name="paramIntA" value="2"></parameter>
+	<parameter name="paramIntB" value="5"></parameter>
+	<test name="full">
+		<classes>
+			<class name="core.NewTest4" />
+			<class name="core.NewTest2" />
+			<class name="core.NewTest" />
+		</classes>
+	</test>
+	<test name="core.NewTest3">
+		<classes>
+			<class name="core.NewTest3">
+				<methods>
+					<exclude name="squareElementTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
