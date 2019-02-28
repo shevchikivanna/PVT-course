@@ -1,0 +1,30 @@
+﻿<html>
+<head>
+<title><h1>AAAAAAAAAAAAAAAAAAAA</h1></title>
+</head>
+<body>
+<h1>BBBBBBBBBBBB</h1>
+<br><p style="color:#008000">
+
+<u>Меня зовут Иванна, это моя первая страничка!</u></P>
+<s> Круть </s>
+
+
+<br>
+<p style="color:#ff0000">
+
+16 ДОМАШКА<sup>ВВВВВВВВВВВВВ</sup>
+
+</p>
+GGGGGGGGGG <sub>dddddddddd</sub>
+</p></p>
+
+
+<td><a href="12.html">12.html</a>
+</td>
+<p><IMG src="02-funny-cat-wallpapercat-wallpaper.png" width=800 height=600 alt="Ivanna">
+<IMG src="5.png" width=500 height=600 alt="Ivanna">
+</p>
+</br>
+</body>
+</html>
