@@ -1,0 +1,41 @@
+1.	Выбрать все записи из таблицы Categories
+SELECT * FROM Categories;
+2.	Выбрать Id  и название категорий из таблицы Categories
+SELECT CategoryID, CategoryName FROM Categories;
+3.	Выбрать адреса из таблицы Suppliers
+SELECT Address FROM Suppliers;
+4.	Отсортировать все продукты по цене в порядке убывания
+SELECT ProductID, ProductName, Price FROM Products order by Price desc;
+5.	Отсортировать таблицу заказов по CustomerID, а затем по ShipperID в одной запросе
+SELECT * FROM Orders order by CustomerID, ShipperID;
+6.	Выбрать все продукты, цена которых больше 40 и отсортировать по названию в обратном порядке
+SELECT productID, productName, price FROM products where price > 40 order by productName desc;
+7.	Выбрать все продукты, цена которых находится в диапазоне от 20 до 50 и отсортировать по юниту 
+SELECT * FROM products where price between 20 and 50 order by unit;
+8.	Выбрать все продукты, цена которых находится в диапазоне от 20 до 100 или CategoryID = 6
+SELECT * FROM products where price between 20 and 100 or categoryID = 6;
+9.	Выбрать все продукты, цена которых равна 46, 53, 55 (2-мя способами)
+SELECT * FROM products where price = 46 or price = 53 or price = 55;
+SELECT * FROM products where price in (46, 53, 55);
+10.	 Выбрать все продукты, кроме тех, цена которых равна 46, 53, 55 
+SELECT * FROM products where price not in (46, 53, 55);
+11.	 Выбрать все продукты, в имени которых есть сочетание «han»
+SELECT * FROM products where productName like '%han%';
+12.	 Вставить одну полную строку в таблицу Shippers
+INSERT INTO Shippers (ShipperID, ShipperName, Phone) VALUES ('4', 'Allibaba', '(029)111-11-11');
+13.	 Вставить строку с 2-мя указанными значениями в таблицу Shippers
+INSERT INTO Shippers (ShipperID, ShipperName) VALUES ('5', 'All');
+14.	 Вставить значения из таблицы Shippers в таблицу Categories
+INSERT INTO Categories (CategoryName, Description) SELECT ShipperName, Phone FROM Shippers;
+15.	 Вставить значения из таблицы Shippers c именем поставщика «Speedy Express» в таблицу Categories 
+INSERT INTO Categories (CategoryName, Description) SELECT ShipperName, Phone FROM Shippers where ShipperName like 'Speedy Express';
+16.	 Удалить из таблицы Shippers доставщика с именем 	«Speedy Express»
+delete from Shippers where ShipperName like 'Speedy Express';
+17.	 Удалить продукты, цена которых меньше 50
+delete from products where price < 50;
+18.	 Удалить все заказы
+delete from orders;
+19.	  Изменить описании категории продукта с названием категории = «Beverages» на любое другое
+UPDATE Categories SET Description='QQQ' WHERE CategoryName like 'Beverages';    
+20.	 Изменить цену продукта с именем Chais на любую другую
+UPDATE Products SET Price=100 WHERE productName like '%Chais%';
