@@ -1,0 +1,75 @@
+{
+  "hosts" : [ {
+    "title" : "DESKTOP-BKNN6JL",
+    "threads" : [ {
+      "title" : "2532@DESKTOP-BKNN6JL.main(1)",
+      "testCases" : [ {
+        "uid" : "c02fd5cfe7e68632",
+        "name" : "Test positive there is page mail.ru",
+        "title" : "Test positive there is page mail.ru",
+        "time" : {
+          "start" : 1554329340379,
+          "stop" : 1554329354691,
+          "duration" : 14312
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "51493bcfc0595796",
+        "name" : "Test positive Login on mailru",
+        "title" : "Test positive Login on mailru",
+        "time" : {
+          "start" : 1554329354817,
+          "stop" : 1554329378219,
+          "duration" : 23402
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a376c3a0f5f3d061",
+        "name" : "Test positive remove email to spam",
+        "title" : "Test positive remove email to spam",
+        "time" : {
+          "start" : 1554329378222,
+          "stop" : 1554329391332,
+          "duration" : 13110
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d77a024c3980b21e",
+        "name" : "Test positive create and send email",
+        "title" : "Test positive create and send email",
+        "time" : {
+          "start" : 1554329391335,
+          "stop" : 1554329411758,
+          "duration" : 20423
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "15f6616e38eb0ed0",
+        "name" : "Test positive check search field mail.ru",
+        "title" : "Test positive check search field mail.ru",
+        "time" : {
+          "start" : 1554329412689,
+          "stop" : 1554329418095,
+          "duration" : 5406
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b96604cf4dd0862",
+        "name" : "Test positive check exists email address mail.ru",
+        "title" : "Test positive check exists email address mail.ru",
+        "time" : {
+          "start" : 1554329418097,
+          "stop" : 1554329422754,
+          "duration" : 4657
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

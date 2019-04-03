@@ -1,0 +1,5 @@
+MailAutomationTest\UserMailRu\MailInfoParser.class
+MailAutomationTest\UserMailRu\User.class
+MailAutomationTest\UserMailRu\UserBuilder.class
+MailAutomationTest\UserMailRu\ScreenshotFacade.class
+MailAutomationTest\UserMailRu\SingletonWebDriver.class
