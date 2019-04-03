@@ -1,0 +1,8 @@
+MailAutomationTest\MailRu\CucumberProjectTest.class
+MailAutomationTest\MailRu\MainMailRu.class
+MailAutomationTest\MailRu\MailRuPage.class
+MailAutomationTest\MailRu\CreateAndSendEmail.class
+MailAutomationTest\MailRu\RemoveToSpam.class
+vkAPITest\VKApiTest.class
+MailAutomationTest\MailRu\MailCommon.class
+MailAutomationTest\MailRu\StepsMailRu.class

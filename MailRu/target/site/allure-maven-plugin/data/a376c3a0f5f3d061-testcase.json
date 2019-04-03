@@ -1,0 +1,116 @@
+{
+  "uid" : "a376c3a0f5f3d061",
+  "name" : "Test positive remove email to spam",
+  "title" : "Test positive remove email to spam",
+  "time" : {
+    "start" : 1554329378222,
+    "stop" : 1554329391332,
+    "duration" : 13110
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "97e2c2303e097418",
+    "name" : "Test mail.ru",
+    "title" : "Ru"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1554329378222,
+      "stop" : 1554329380431,
+      "duration" : 2209
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I remove email to spam",
+    "title" : "And I remove email to spam",
+    "time" : {
+      "start" : 1554329380432,
+      "stop" : 1554329388249,
+      "duration" : 7817
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I make screenshot",
+    "title" : "Then I make screenshot",
+    "time" : {
+      "start" : 1554329388250,
+      "stop" : 1554329388674,
+      "duration" : 424
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I log out",
+    "title" : "And I log out",
+    "time" : {
+      "start" : 1554329388674,
+      "stop" : 1554329391332,
+      "duration" : 2658
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BKNN6JL"
+  }, {
+    "name" : "story",
+    "value" : "Test positive remove email to spam"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Test mail.ru"
+  }, {
+    "name" : "thread",
+    "value" : "2532@DESKTOP-BKNN6JL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Test mail.ru"
+  } ],
+  "parameters" : [ ]
+}

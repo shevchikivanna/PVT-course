@@ -1,0 +1,101 @@
+{
+  "uid" : "c02fd5cfe7e68632",
+  "name" : "Test positive there is page mail.ru",
+  "title" : "Test positive there is page mail.ru",
+  "time" : {
+    "start" : 1554329340379,
+    "stop" : 1554329354691,
+    "duration" : 14312
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "97e2c2303e097418",
+    "name" : "Test mail.ru",
+    "title" : "Ru"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1554329340390,
+      "stop" : 1554329353574,
+      "duration" : 13184
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I see mail logo",
+    "title" : "And I see mail logo",
+    "time" : {
+      "start" : 1554329353576,
+      "stop" : 1554329353683,
+      "duration" : 107
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I make screenshot",
+    "title" : "Then I make screenshot",
+    "time" : {
+      "start" : 1554329353683,
+      "stop" : 1554329354687,
+      "duration" : 1004
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BKNN6JL"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Test mail.ru"
+  }, {
+    "name" : "thread",
+    "value" : "2532@DESKTOP-BKNN6JL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Test mail.ru"
+  }, {
+    "name" : "story",
+    "value" : "Test positive there is page mail.ru"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,161 @@
+{
+  "uid" : "15f6616e38eb0ed0",
+  "name" : "Test positive check search field mail.ru",
+  "title" : "Test positive check search field mail.ru",
+  "time" : {
+    "start" : 1554329412689,
+    "stop" : 1554329418095,
+    "duration" : 5406
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "97e2c2303e097418",
+    "name" : "Test mail.ru",
+    "title" : "Ru"
+  },
+  "steps" : [ {
+    "name" : "Given I am on main application page",
+    "title" : "Given I am on main application page",
+    "time" : {
+      "start" : 1554329412690,
+      "stop" : 1554329414731,
+      "duration" : 2041
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I see mail logo",
+    "title" : "And I see mail logo",
+    "time" : {
+      "start" : 1554329414732,
+      "stop" : 1554329414778,
+      "duration" : 46
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I am on search field",
+    "title" : "And I am on search field",
+    "time" : {
+      "start" : 1554329414779,
+      "stop" : 1554329414883,
+      "duration" : 104
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter the data",
+    "title" : "And I enter the data",
+    "time" : {
+      "start" : 1554329414884,
+      "stop" : 1554329415059,
+      "duration" : 175
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I click submit",
+    "title" : "And I click submit",
+    "time" : {
+      "start" : 1554329415059,
+      "stop" : 1554329417703,
+      "duration" : 2644
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I see page with news",
+    "title" : "And I see page with news",
+    "time" : {
+      "start" : 1554329417704,
+      "stop" : 1554329417738,
+      "duration" : 34
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I make screenshot",
+    "title" : "Then I make screenshot",
+    "time" : {
+      "start" : 1554329417738,
+      "stop" : 1554329418095,
+      "duration" : 357
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BKNN6JL"
+  }, {
+    "name" : "story",
+    "value" : "Test positive check search field mail.ru"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Test mail.ru"
+  }, {
+    "name" : "thread",
+    "value" : "2532@DESKTOP-BKNN6JL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Test mail.ru"
+  } ],
+  "parameters" : [ ]
+}

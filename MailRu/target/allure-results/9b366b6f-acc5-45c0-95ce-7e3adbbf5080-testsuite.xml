@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1554329340335" stop="1554329411765" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test mail.ru</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1554329340379" stop="1554329354691" status="passed">
+            <name>Test positive there is page mail.ru</name>
+            <title>Test positive there is page mail.ru</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1554329340390" stop="1554329353574" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329353576" stop="1554329353683" status="passed">
+                    <name>And I see mail logo</name>
+                    <title>And I see mail logo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329353683" stop="1554329354687" status="passed">
+                    <name>Then I make screenshot</name>
+                    <title>Then I make screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test positive there is page mail.ru"/>
+                <label name="feature" value="Test mail.ru"/>
+                <label name="host" value="DESKTOP-BKNN6JL"/>
+                <label name="thread" value="2532@DESKTOP-BKNN6JL.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1554329354817" stop="1554329378219" status="passed">
+            <name>Test positive Login on mailru</name>
+            <title>Test positive Login on mailru</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1554329354818" stop="1554329356400" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329356400" stop="1554329357017" status="passed">
+                    <name>And I see mail logo</name>
+                    <title>And I see mail logo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329357017" stop="1554329373721" status="passed">
+                    <name>And I enter login data</name>
+                    <title>And I enter login data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329373721" stop="1554329374685" status="passed">
+                    <name>Then I make screenshot</name>
+                    <title>Then I make screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329374686" stop="1554329378219" status="passed">
+                    <name>And I log out</name>
+                    <title>And I log out</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test positive Login on mailru"/>
+                <label name="feature" value="Test mail.ru"/>
+                <label name="host" value="DESKTOP-BKNN6JL"/>
+                <label name="thread" value="2532@DESKTOP-BKNN6JL.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1554329378222" stop="1554329391332" status="passed">
+            <name>Test positive remove email to spam</name>
+            <title>Test positive remove email to spam</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1554329378222" stop="1554329380431" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329380432" stop="1554329388249" status="passed">
+                    <name>And I remove email to spam</name>
+                    <title>And I remove email to spam</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329388250" stop="1554329388674" status="passed">
+                    <name>Then I make screenshot</name>
+                    <title>Then I make screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329388674" stop="1554329391332" status="passed">
+                    <name>And I log out</name>
+                    <title>And I log out</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test positive remove email to spam"/>
+                <label name="feature" value="Test mail.ru"/>
+                <label name="host" value="DESKTOP-BKNN6JL"/>
+                <label name="thread" value="2532@DESKTOP-BKNN6JL.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1554329391335" stop="1554329411758" status="passed">
+            <name>Test positive create and send email</name>
+            <title>Test positive create and send email</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1554329391336" stop="1554329393166" status="passed">
+                    <name>Given I am on main application page</name>
+                    <title>Given I am on main application page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329393166" stop="1554329408841" status="passed">
+                    <name>And I create email and send email</name>
+                    <title>And I create email and send email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329408841" stop="1554329409365" status="passed">
+                    <name>Then I make screenshot</name>
+                    <title>Then I make screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1554329409366" stop="1554329411758" status="passed">
+                    <name>And I log out</name>
+                    <title>And I log out</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test positive create and send email"/>
+                <label name="feature" value="Test mail.ru"/>
+                <label name="host" value="DESKTOP-BKNN6JL"/>
+                <label name="thread" value="2532@DESKTOP-BKNN6JL.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test mail.ru"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
